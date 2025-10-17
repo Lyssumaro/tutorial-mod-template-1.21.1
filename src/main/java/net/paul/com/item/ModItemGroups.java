@@ -1,4 +1,4 @@
-package net.paul.com.Items;
+package net.paul.com.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;

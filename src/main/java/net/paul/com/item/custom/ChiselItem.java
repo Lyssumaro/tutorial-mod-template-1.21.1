@@ -1,4 +1,4 @@
-package net.paul.com.Items.custom;
+package net.paul.com.item.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -12,7 +12,6 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
 import net.minecraft.world.World;
 import net.paul.com.block.ModBlocks;
-import org.spongepowered.asm.mixin.injection.struct.InjectorGroupInfo;
 
 import java.util.Map;
 

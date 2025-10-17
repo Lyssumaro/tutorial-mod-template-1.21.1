@@ -2,8 +2,8 @@ package net.paul.com;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.paul.com.Items.ModItemGroups;
-import net.paul.com.Items.ModItems;
+import net.paul.com.item.ModItemGroups;
+import net.paul.com.item.ModItems;
 import net.paul.com.block.ModBlocks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
