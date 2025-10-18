@@ -35,8 +35,8 @@ public class MagicBlock extends Block {
 
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
-        if (entity instanceof ItemEntity itemEntity) {
-            if (isValidItem(itemEntity.getStack())) {
+        if(entity instanceof ItemEntity itemEntity) {
+            if(isValidItem(itemEntity.getStack())) {
                 itemEntity.setStack(new ItemStack(Items.DIAMOND, itemEntity.getStack().getCount()));
             }
         }
